@@ -24,8 +24,23 @@ Profiles for Chapter 1:
 * James Gosling
 * Grace Hopper
 
-## In-Class Worksheet: DrawFigs
+## Goodies
 
-The in-class worksheet for Chapter 1 will focus on the 
+Puzzle:
+* Crypto challenge puzzle - shift cipher
+
+## In-Class Example: DrawFigs
+
+The in-class example for Chapter 1 will focus on the 
 DrawFigs program provided in the textbook.
+
+## Worksheet: Physical Properties
+
+Assignment: You will look up, write down, and print out
+the density of ten different chemical compounds. 
+
+Specifications: You must select at least one unique chemical
+compound - a chemical compound so unique, you are absolutely certain
+no one elese in the class will select it. (Be creative!)
+
 

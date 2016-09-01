@@ -19,9 +19,7 @@ public class Density {
         System.out.println("********************");
         System.out.println("CHEMICAL PROPERTIES");
         System.out.println("********************");
-        System.out.println();
-        System.out.println("DENSITY:");
-        System.out.println();
+        System.out.println("\nDENSITY:\n");
         System.out.println("Methanol: "+density_methanol+" g/cm3");
         System.out.println("Ethanol: "+density_ethanol+" g/cm3");
         System.out.println("Water: "+density_water+" g/cm3");
