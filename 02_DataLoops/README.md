@@ -21,11 +21,25 @@ Assessments:
 * Pseudocode to describe a pattern
 * Constants, syntax and purpose
 
-## Baseball Cards
+## Profiles
 
-Baseball cards for Chapter 2:
+Profiles for Chapter 2:
 * Charles Babbage
 * Julius Caesar
+
+<br />
+<br />
+<br />
+
+# Teaching Material
+
+
+## Lecture Example: Vertical
+
+Vertical is a program that shows how to implement a simple formula to perform
+a calculation and print the results. This explores how to use the double
+primitive types, order of operations, and formulas.
+
 
 ## In-Class Worksheet: Caesar Cipher
 
@@ -45,4 +59,5 @@ In this way, the message HELLO becomes:
 
 We will implement this shift to encode strings using 
 a Caesar Cipher.
+
 

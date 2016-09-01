@@ -18,10 +18,9 @@ Assessments:
 * Functions, objects, and program flow
 * Errors: syntax and logical errors
 
-## Baseball Cards
+## Profiles
 
-Baseball cards for Chapter 1:
-* Donald Knuth
+Profiles for Chapter 1:
 * James Gosling
 * Grace Hopper
 
