@@ -25,11 +25,11 @@ public class QuadraticEquation {
         if(det < 0) {
             System.out.println("Negative determinant: No real roots");
             return;
-
         } 
 
-        double x1 = (  - b + Math.sqrt( Math.pow(b,2) - 4*a*c )  )/2;
-        double x2 = (  - b - Math.sqrt( Math.pow(b,2) - 4*a*c )  )/2;
+        double x1, x2;
+        x1 = (  - b + Math.sqrt( Math.pow(b,2) - 4*a*c )  )/2;
+        x2 = (  - b - Math.sqrt( Math.pow(b,2) - 4*a*c )  )/2;
 
         System.out.println("Solutions found!");
         System.out.printf("x1 = %4f \n",x1);
