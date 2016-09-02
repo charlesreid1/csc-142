@@ -23,26 +23,19 @@ Profiles for Chapter 1:
 
 ## Lecture Code
 
-### DrawFigs
+DrawFigs:
+* Focus on DrawFigs example program provided by textbook
+* Prints things to the console with println()
 
-The in-class example for Chapter 1 will focus on the 
-DrawFigs program provided in the textbook. This shows
-how to use println() to print things to the console.
-
-### Vertical
-
-This is a simple program to perform a calculation and
-print the result. Shows the students how to apply 
-mathematical concepts and implement formulas.
+Vertical:
+* Performs a calculation
+* Prints out the result
+* Keeps them on their (mathematical) toes
 
 ## Worksheet Code
 
-### Physical Properties
-
-Assignment: You will look up, write down, and print out
-the density of ten different chemical compounds. 
-
-Specifications: You must select at least one unique chemical
-compound - a chemical compound so unique, you are absolutely certain
-no one elese in the class will select it. (Be creative!)
+Physical Properties:
+* Assignment: You will look up, write down, and print out the density of ten different chemical compounds.  
+* Specifications: You must select at least one unique chemical compound.
+* The unique compound must be a chemical compound so unique, you are absolutely certain no one elese in the class will select it. (Be creative!)
 
