@@ -1,7 +1,4 @@
-# 2 DataLoops - Primitive Data and Definite Loops
-
-This directory contains materials related to Chapter 2, Primitive Data and Definite Loops,
-in Reges and Stepp. 
+# Chapter 2: Primitive Data and Definite Loops 
 
 ## Outline of Material
 

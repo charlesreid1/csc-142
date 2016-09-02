@@ -1,9 +1,5 @@
 # Chapter 3: Parameters and Objects 
 
-This directory contains materials related to Chapter 3 of Reges and Stepp, 
-which covers parameters, methods, return values, and some basic object 
-terminology.
-
 ## Outline of Material
 
 Sections:
