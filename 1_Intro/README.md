@@ -1,7 +1,4 @@
-# 01Intro - Introduction to Java
-
-This directory contains materials related to Chapter 1 of Reges and Stepp, 
-Introduction to Java.
+# Chapter 1: Introduction to Java
 
 ## Outline of Material
 
@@ -24,17 +21,23 @@ Profiles for Chapter 1:
 * James Gosling
 * Grace Hopper
 
-## Goodies
+## Lecture Code
 
-Puzzle:
-* Crypto challenge puzzle - shift cipher
-
-## In-Class Example: DrawFigs
+### DrawFigs
 
 The in-class example for Chapter 1 will focus on the 
-DrawFigs program provided in the textbook.
+DrawFigs program provided in the textbook. This shows
+how to use println() to print things to the console.
 
-## Worksheet: Physical Properties
+### Vertical
+
+This is a simple program to perform a calculation and
+print the result. Shows the students how to apply 
+mathematical concepts and implement formulas.
+
+## Worksheet Code
+
+### Physical Properties
 
 Assignment: You will look up, write down, and print out
 the density of ten different chemical compounds. 
@@ -42,5 +45,4 @@ the density of ten different chemical compounds.
 Specifications: You must select at least one unique chemical
 compound - a chemical compound so unique, you are absolutely certain
 no one elese in the class will select it. (Be creative!)
-
 
