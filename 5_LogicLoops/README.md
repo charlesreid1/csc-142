@@ -42,6 +42,7 @@ Assertions:
 
 Taylor cos?
 * while loop, fencepost algorithm, sentinel algorithm
+* (how?)
 
 isPrime
 * More complex program with more complex logic/assertions
