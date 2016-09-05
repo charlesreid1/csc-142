@@ -1,5 +1,7 @@
 # Chapter 1: Introduction to Java
 
+DONE
+
 ## Outline of Material
 
 Sections:
