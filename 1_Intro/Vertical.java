@@ -1,11 +1,8 @@
-/*
- * Vertical
- *
- * Problem:
- * Compute the height above ground of an object thrown vertically
+/**
+ * Vertical:
+ * Computes the height above ground of an object thrown vertically
  * after a specified amount of time.
  *
- * Background:
  * This program solves a well-known physics formula for an object thrown vertically.
  * For an initial speed u, the displacement s after a time t has elapsed is given by
  * the formula:
