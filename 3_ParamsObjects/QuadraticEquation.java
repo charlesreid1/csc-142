@@ -1,13 +1,18 @@
-import java.io.*;
-
+/**
+ * QuadraticEquation:
+ * Solve the quadratic equation for a given polynomial
+ * ax^2 + bx + c = 0 
+ * and print the solution.
+ */
 public class QuadraticEquation {
 
     public static void main(String[] args) {
         printIntro();
-        solveQuadraticEquation(1,4,4);
-        solveQuadraticEquation(1,2,1);
+        solveQuadraticEquation(1.0,4.0,4.0);
+        solveQuadraticEquation(1.0,2.0,1.0);
     }
 
+    /** Print a header */
     public static void printIntro() {
         System.out.println("*****************************");
         System.out.println("Quadratic Equation Solver");
@@ -15,6 +20,7 @@ public class QuadraticEquation {
         System.out.println();
     }
 
+    /** Print the solution x to the polynomial ax^2 + bx + c */
     public static void solveQuadraticEquation(double a, double b, double c) {
         System.out.println("Solving quadratic equation for:");
         System.out.println("a = "+a);
