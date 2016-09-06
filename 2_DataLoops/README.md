@@ -27,14 +27,20 @@ Profiles for Chapter 2:
 
 ## Lecture Code 
 
-QuadraticEquation
-* Shows them how to use error cehcking and parameters
-* Solve quadratic equation given a, b, c
+Confused Operator
+
+Density Calculations With Constants
+* Class-wide final constants
+
+For Pattern
+* Turning a printed pattern into nested for loops
+
+PrintSequence
+* Print a sequence for 2^n
 
 ## Worksheet Code
 
-Money
-* Watch your money grow
-* Suppose you invest X in Y, at rate R
-* Watch how quickly your money grows after Z years, print row by row
+Newton's Equation Square Roots
+* approximating square roots
+* using only algebra and iterative refinement
 
