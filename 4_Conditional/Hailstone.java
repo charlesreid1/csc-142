@@ -12,7 +12,6 @@ public class Hailstone {
         int min = value;
         int max = value;
 
-        System.out.println("Sequence:");
         for( int i = 1; i <= length- 1; i++ ) { 
 
             if(value%2 == 0) {
@@ -25,7 +24,6 @@ public class Hailstone {
             } else if (value < min ) {
                 min = value;
             }
-            System.out.println("[*] "+value);
         }
         System.out.println("Max : " + max);
         System.out.println("Max : " + min);
