@@ -1,3 +1,8 @@
+/**
+ * For Pattern: 
+ *
+ * Print a pattern using a nested for loop.
+ */
 public class ForPattern {
     public static void main(String[] args) {
 
