@@ -18,13 +18,6 @@ Assessments:
 * Pseudocode to describe a pattern
 * Constants, syntax and purpose
 
-## Profiles
-
-Profiles for Chapter 2:
-* Charles Babbage
-* Julius Caesar
-
-
 ## Lecture Code 
 
 Confused Operator
