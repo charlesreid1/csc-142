@@ -3,15 +3,23 @@
 ## Outline of Material
 
 Sections:
-* 1.1 - Basic computing concepts (algorithms, programs, hardware, software, JVM, JRE, JDK)
-* 1.2 - And now, Java (classes, headers, methods, strings, printing)
-* 1.3 - Program errors (syntax errors, compiler level; logic errors, code level)
-* 1.4 - Procedural decomposition (functions vs. objects, static methods, flow control)
-* 1.5 - Case study: DrawFigs (turning a task into a pattern, generalization, common components)
+* If/else statements
+* Cumulative algorithms
+* Text processing
+* Methods with conditional execution
+* Case study: BMI 
 
-Assessments:
-* Know definitions of terms
-* Writing and running Hello World, and how it works
-* Functions, objects, and program flow
-* Errors: syntax and logical errors
+## Lecture Code
+
+Hailstone sequence
+
+Coin paradox
+* If Alice tosses a coin until she sees a head followed by a tail, and Bob tosses a coin until he sees two heads in a row, then on average, Alice will require four tosses while Bob will require six tosses (try this at home!), even though head-tail and head-head have an equal chance of appearing after two coin tosses.
+* [link](http://www.elknase.com/coin-paradox-re-demystified/)
+
+## Profiles
+
+
+
+## Worksheet Code
 

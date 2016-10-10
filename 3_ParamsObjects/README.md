@@ -8,18 +8,6 @@ Sections:
 * 3.3 - Using objects
 * 3.4 - Case study Projectile trajectory
 
-Assessments:
-* Parameter notation, purpose, and how they work
-* Return value notation, purpose, and how they work
-* Object concepts and definitions
-* Applying object concepts to Strings
-* Projectile trajectory: focus on a more complex application/program
-
-## Profiles
-
-Profiles for Chapter 3:
-* Carl Gauss
-
 ## Lecture Code
 
 Quadratic equation solver
@@ -37,12 +25,22 @@ Pythagorean theorem
 * Recap what we've been able to solve
 * Profound connection between programming and math
 
+Scope
+* Illustrate a few simple scope examples
+
+## Profiles
+
+Carl Friedrich Gauss
+
+Julius Caesar
+
 ## Worksheet Code
 
 Caesar Cipher encrypting:
 * Char shift is the key, getting them to think about the modular operation
 * Hint: try printing all the characters (for char c='a', etc.)
 * Try executing this Java code: 'a'+5
+* Try executing this Java code: 'w'+23
 * First think modularly, mod(14 + 15, 26)
 * then convert to char: 'a' + mod(14+15,26)
 

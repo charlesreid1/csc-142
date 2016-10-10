@@ -31,6 +31,10 @@ For Pattern
 PrintSequence
 * Print a sequence for 2^n
 
+## Profiles
+
+Isaac Newton
+
 ## Worksheet Code
 
 Newton's Equation Square Roots
