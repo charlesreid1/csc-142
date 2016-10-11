@@ -11,15 +11,27 @@ Sections:
 
 ## Lecture Code
 
+Object equality
+
 Hailstone sequence
 
-Coin paradox
-* If Alice tosses a coin until she sees a head followed by a tail, and Bob tosses a coin until he sees two heads in a row, then on average, Alice will require four tosses while Bob will require six tosses (try this at home!), even though head-tail and head-head have an equal chance of appearing after two coin tosses.
-* [link](http://www.elknase.com/coin-paradox-re-demystified/)
+Hailstone min and max
 
-## Profiles
+BMI Case Study Code
 
+## Laws and Razors
 
+Moore's Law: The number of transistors that can be fit on an integrated circuit doubles every two years.
+
+Murphy's Law: If the user can' do something wrong, they will do something wrong
+
+Occam's Razor: A hypothesis should not be any more complicated than is necessary. (Or: Simple hypotheses are the most plausible.)
+
+Hanlon's Razor: Never attribute to malice what is equally attributable to stupidity. 
 
 ## Worksheet Code
+
+Cracking the Caesar Cipher (And Other Ciphers):
+* Letter Frequency to suggest substitutions
+* Cumulative Algorithm for Letter Frequency
 
