@@ -13,7 +13,10 @@ import java.util.*;
 public class SquareRoot {
 
     public static void main(String[] args) { 
-        double b = 2;
+        double b = 2; // COmputing the square root of 2
+
+        // This for loop explores the impact of the intial guess 
+        // on the calculation of the square root. 
         for(int i=1; i<100; i*=2) {
             double initial_guess = i*b;
             int Niter = 10;
@@ -35,14 +38,15 @@ public class SquareRoot {
         // Iterate a fixed number of times 
         double truth = Math.sqrt(b);
         double x_i = initial_guess;
-        System.out.print("Iteration\tApproximation\t\tTrue Value\n");
 
+        // Print results in a nice table
+        System.out.print("Iteration\tApproximation\t\tTrue Value\n");
         System.out.printf("%2d\t\t%.10f\t\t%.10f\n",0,initial_guess,truth);
 
         // approximate the value of the square root using Newton's method
         for( int i=1; i <= Niterations; i++ ) {
-            x_i -= ( Math.pow(x_i,2) - b )/(2 * x_i );
-            System.out.printf("%2d\t\t%.10f\t\t%.10f\n",i,x_i,truth);
+            x_i -= ( Math.pow(x_i,2) - b )/(2 * x_i ); // This is the most important part!
+            System.out.printf("%2d\t\t%.10f\t\t%.10f\n",i,x_i,truth); // Print results 
         }
         return x_i;
     }
