@@ -40,14 +40,13 @@ Assertions:
 
 ## Lecture Code 
 
-Taylor cos?
+Fencepost 
 * while loop, fencepost algorithm, sentinel algorithm
 * (how?)
 
-isPrime
-* More complex program with more complex logic/assertions
-* Sieve of Arasthnosenes
-* Use debugger during lecture, explore logic more deeply
+Prime check fencepost
+
+
 
 ## Worksheet Code
 
