@@ -1,0 +1,298 @@
+{
+    "beaker": "2",
+    "evaluators": [
+        {
+            "name": "HTML",
+            "plugin": "HTML",
+            "view": {
+                "cm": {
+                    "mode": "smartHTMLMode"
+                }
+            }
+        },
+        {
+            "name": "IPython",
+            "plugin": "IPython",
+            "imports": "",
+            "supplementalClassPath": "",
+            "view": {
+                "cm": {
+                    "mode": "python"
+                }
+            },
+            "setup": "%matplotlib inline\nimport numpy\nimport matplotlib\nfrom matplotlib import pylab, mlab, pyplot\nnp = numpy\nplt = pyplot\nfrom IPython.display import display\nfrom IPython.core.pylabtools import figsize, getfigs\nfrom pylab import *\nfrom numpy import *\n"
+        },
+        {
+            "name": "JavaScript",
+            "plugin": "JavaScript",
+            "jsSetting2": "",
+            "jsSetting1": "",
+            "view": {
+                "cm": {
+                    "mode": "javascript",
+                    "background": "#FFE0F0"
+                }
+            },
+            "languageVersion": "ES2015"
+        },
+        {
+            "name": "R",
+            "plugin": "R",
+            "view": {
+                "cm": {
+                    "mode": "r"
+                }
+            }
+        },
+        {
+            "name": "Java",
+            "plugin": "Java",
+            "imports": "java.util.concurrent.TimeUnit\ncom.twosigma.beaker.chart.Color\ncom.twosigma.beaker.chart.GradientColor\ncom.twosigma.beaker.chart.legend.*\ncom.twosigma.beaker.chart.Filter\ncom.twosigma.beaker.BeakerProgressUpdate\ncom.twosigma.beaker.chart.xychart.*\ncom.twosigma.beaker.chart.xychart.plotitem.*\ncom.twosigma.beaker.chart.categoryplot.*\ncom.twosigma.beaker.chart.categoryplot.plotitem.*\ncom.twosigma.beaker.chart.histogram.*\ncom.twosigma.beaker.chart.treemap.*\ncom.twosigma.beaker.chart.treemap.util.*\nnet.sf.jtreemap.swing.*\ncom.twosigma.beaker.NamespaceClient\ncom.twosigma.beaker.chart.heatmap.HeatMap\ncom.twosigma.beaker.jvm.object.*\ncom.twosigma.beaker.easyform.*\ncom.twosigma.beaker.easyform.formitem.*\ncom.twosigma.beaker.table.*\ncom.twosigma.beaker.table.format.*\ncom.twosigma.beaker.table.renderer.*\ncom.twosigma.beaker.table.highlight.*",
+            "view": {
+                "cm": {
+                    "mode": "text/x-java"
+                }
+            }
+        },
+        {
+            "name": "TeX",
+            "plugin": "TeX",
+            "view": {
+                "cm": {
+                    "mode": "stex"
+                }
+            }
+        }
+    ],
+    "cells": [
+        {
+            "id": "section001",
+            "type": "section",
+            "level": 1,
+            "title": "Hello Java",
+            "collapsed": false,
+            "evaluatorReader": false
+        },
+        {
+            "id": "codeeDyIn9",
+            "type": "code",
+            "evaluator": "HTML",
+            "input": {
+                "body": [
+                    "<h1><b>Java Test</b></h1>",
+                    "",
+                    "<p>This is a notebook to test Beaker Notebook's Java functionality and explain how the code is set up.</p>",
+                    "",
+                    "<p>Normally, we would start with a class with a main() method, which would be run when we run <code>java ClassName</code>.</p>",
+                    "",
+                    "<p>But here, we start by defining whatever classes we'd like to use in various cells. Once we're ready, once we've imported the libraries we're going to use, once we've defined the classes our code will utilize, we can create a new cell, and treat it like the contents of a main() function.</p>"
+                ],
+                "hidden": true
+            },
+            "output": {
+                "state": {},
+                "result": {
+                    "type": "BeakerDisplay",
+                    "innertype": "Html",
+                    "object": "<script>\nvar beaker = bkHelper.getBeakerObject().beakerObj;\n</script>\n<h1><b>Java Test</b></h1>\n\n<p>This is a notebook to test Beaker Notebook's Java functionality and explain how the code is set up.</p>\n\n<p>Normally, we would start with a class with a main() method, which would be run when we run <code>java ClassName</code>.</p>\n\n<p>But here, we start by defining whatever classes we'd like to use in various cells. Once we're ready, once we've imported the libraries we're going to use, once we've defined the classes our code will utilize, we can create a new cell, and treat it like the contents of a main() function.</p>"
+                },
+                "selectedType": "BeakerDisplay",
+                "elapsedTime": 32,
+                "height": 189
+            },
+            "evaluatorReader": true,
+            "lineCount": 7
+        },
+        {
+            "id": "codeptfJyh",
+            "type": "code",
+            "evaluator": "HTML",
+            "input": {
+                "body": [
+                    "<p>Start by defining a Widget object, which has a single <code>getIndex()</code> method defined.</p>"
+                ],
+                "hidden": true
+            },
+            "output": {
+                "state": {},
+                "result": {
+                    "type": "BeakerDisplay",
+                    "innertype": "Html",
+                    "object": "<script>\nvar beaker = bkHelper.getBeakerObject().beakerObj;\n</script>\n<p>Start by defining a Widget object, which has a single <code>getIndex()</code> method defined.</p>"
+                },
+                "selectedType": "BeakerDisplay",
+                "elapsedTime": 33,
+                "height": 64
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codec0DLG1",
+            "type": "code",
+            "evaluator": "Java",
+            "input": {
+                "body": [
+                    "/**",
+                    "* The Widget class is a simple object that is utilized later in this notebook.",
+                    "*/",
+                    "public class Widget {",
+                    "  ",
+                    "  int index; // private field",
+                    "  ",
+                    "  /**",
+                    "  * Default Widget constructor",
+                    "  */",
+                    "  public Widget() {",
+                    "    // When we make a new Widget, we set the index to 5",
+                    "    this.index = 5;",
+                    "  }",
+                    "  ",
+                    "  /**",
+                    "  * Accessor function for index variable.",
+                    "  */",
+                    "  public int getIndex() { ",
+                    "    return this.index;",
+                    "  }",
+                    "}"
+                ]
+            },
+            "output": {
+                "state": {},
+                "result": "com.twosigma.beaker.javash.bkrfda79650.Widget",
+                "selectedType": "Text",
+                "pluginName": "Java",
+                "shellId": "fda79650-eba8-4a9f-8313-ea66d1a27ac7",
+                "elapsedTime": 964,
+                "height": 57
+            },
+            "evaluatorReader": true,
+            "lineCount": 22
+        },
+        {
+            "id": "coden4EUnR",
+            "type": "code",
+            "evaluator": "Java",
+            "input": {
+                "body": [
+                    "// Create a widget, and print an initialized field of the new object",
+                    "Widget w = new Widget();",
+                    "System.out.println(w.getIndex());"
+                ]
+            },
+            "output": {
+                "state": {},
+                "result": {
+                    "type": "Results",
+                    "outputdata": [
+                        {
+                            "type": "out",
+                            "value": "5\n"
+                        }
+                    ]
+                },
+                "selectedType": "Results",
+                "pluginName": "Java",
+                "shellId": "fda79650-eba8-4a9f-8313-ea66d1a27ac7",
+                "elapsedTime": 1071,
+                "height": 56
+            },
+            "evaluatorReader": true,
+            "lineCount": 3
+        },
+        {
+            "id": "codeQyM1wd",
+            "type": "code",
+            "evaluator": "HTML",
+            "input": {
+                "body": [
+                    "<p>Now, this is a little confusing to newcomers, as they need to see that <code>public static void main(String[] args)</code> business to understand how to orient themselves. To accomplish this, we can define a class that has a <code>public static void main()</code> method, and that looks just like any other Java program. Then, in a new block of code, we actually invoke an instance of this (static) object, Driver, so that we can run the (static) method, <code>main()</code>.</p>"
+                ],
+                "hidden": true
+            },
+            "output": {
+                "state": {},
+                "result": {
+                    "type": "BeakerDisplay",
+                    "innertype": "Html",
+                    "object": "<script>\nvar beaker = bkHelper.getBeakerObject().beakerObj;\n</script>\n<p>Now, this is a little confusing to newcomers, as they need to see that <code>public static void main(String[] args)</code> business to understand how to orient themselves. To accomplish this, we can define a class that has a <code>public static void main()</code> method, and that looks just like any other Java program. Then, in a new block of code, we actually invoke an instance of this (static) object, Driver, so that we can run the (static) method, <code>main()</code>.</p>"
+                },
+                "selectedType": "BeakerDisplay",
+                "elapsedTime": 1,
+                "height": 100
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeZWBNuN",
+            "type": "code",
+            "evaluator": "Java",
+            "input": {
+                "body": [
+                    "public class Driver {",
+                    "  /**",
+                    "  * Define a main (driver) function.",
+                    "  */",
+                    "  public static void main(String[] args) {",
+                    "    // This is a procedural program and just calls other functions defined in the Driver class",
+                    "    walkTheDogs();",
+                    "  }",
+                    "  ",
+                    "  /**",
+                    "  * Define a silly method that this driver will call.",
+                    "  */",
+                    "  public static void walkTheDogs() {",
+                    "    System.out.println(\"Just out walkin me dogs\");",
+                    "  }",
+                    "}"
+                ]
+            },
+            "output": {
+                "state": {},
+                "result": "com.twosigma.beaker.javash.bkrfda79650.Driver",
+                "selectedType": "Text",
+                "pluginName": "Java",
+                "shellId": "fda79650-eba8-4a9f-8313-ea66d1a27ac7",
+                "elapsedTime": 989,
+                "height": 57
+            },
+            "evaluatorReader": true,
+            "lineCount": 16
+        },
+        {
+            "id": "codeRrvWiI",
+            "type": "code",
+            "evaluator": "Java",
+            "input": {
+                "body": [
+                    "// Initialize a String[] array of arguments (leave empty if none)",
+                    "String[] args = {\"\"};",
+                    "",
+                    "// Call the static main() method",
+                    "Driver.main(args);"
+                ]
+            },
+            "output": {
+                "state": {},
+                "result": {
+                    "type": "Results",
+                    "outputdata": [
+                        {
+                            "type": "out",
+                            "value": "Just out walkin me dogs\n"
+                        }
+                    ]
+                },
+                "selectedType": "Results",
+                "pluginName": "Java",
+                "shellId": "fda79650-eba8-4a9f-8313-ea66d1a27ac7",
+                "elapsedTime": 1281,
+                "height": 56
+            },
+            "evaluatorReader": true,
+            "lineCount": 5
+        }
+    ],
+    "namespace": {}
+}
